@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+
+@layer base {
+  summary::before {
+    content: "►";
+    font-size: 14px;
+    color: #787878;
+    margin-right: 8px;
+    transition: transform 0.2s ease;
+  }
+
+  details[open] summary::before {
+    content: "▼";
+  }
+
+  summary {
+    list-style: none;
+    cursor: pointer;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
