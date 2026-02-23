@@ -19,7 +19,7 @@ export default function HomePage() {
 
       {/* Desktop (NO LCP) */}
       <Image
-        src="/Main/Imagen_principal_desktop.webp"
+        src="/Main/Diseño Pagina Web-40.jpg"
         alt="Decoración de boda"
         fill
         sizes="(min-width: 1024px) 100vw"
