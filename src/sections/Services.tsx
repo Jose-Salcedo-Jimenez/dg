@@ -1,7 +1,7 @@
 import { Montserrat } from "next/font/google";
 import { GallerCompoent } from "@/components/GalleryCompoent";
 import LogoDGg from "@/components/LogoDGg";
-
+import Link from "next/link";
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["300", "400"] });
 export default function Services() {
   return (
@@ -43,12 +43,12 @@ planificación exquisita e impecable, encargándonos de toda la logística inter
         />
       </div>
       <div className="mt-10">
-        <a
-          href="#"
+        <Link
+          href="/contact"
           className={`${montserrat.className} text-[12px] tracking-widest p-[0.5rem_2rem_0.5rem_2rem] lg:p-[0.8rem_2.5rem_0.8rem_2.5rem] bg-[#636363] text-white rounded-full transition-all duration-500 ease-out hover:bg-neutral-800 hover:scale-[1.03]`}
         >
           Contáctanos
-        </a>
+        </Link>
       </div>
     </section>
   );
