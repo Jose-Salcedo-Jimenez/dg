@@ -21,13 +21,18 @@ export default function Dg() {
         <LogoDGg />
 
         <p className="text-justify lg:p-10 hyphens-auto wrap-break-words  leading-relaxed pl-5 pr-5 mt-5 lg:mt-0 ">
-          Danilo Gonzalez Wedding Planner, productor y diseñador de eventos en
-          DGonzalezeventos, te ayudará en la organización y realización de tu
-          boda o evento, centrándose en tus gustos, tendencias actuales y
-          necesidades presupuestarias. Empresa legalmente constituida en
-          Colombia, ejecutamos cada detalle pensado para que tu día especial sea
-          inolvidable. Dale un touch DG a tus eventos sociales, corporativos o
-          bodas con nuestros servicios que más desees en cualquier destino.
+          Danilo González, Wedding Planner, productor y diseñador de eventos de
+          DGonzalez Eventos, te acompañará en la organización y realización de
+          tu boda o evento, creando experiencias que se adapten a tus gustos,
+          necesidades y presupuesto, siempre de la mano de las tendencias
+          actuales. Somos una empresa legalmente constituida en Colombia y nos
+          encargamos de cuidar cada detalle para hacer de tu día especial una
+          experiencia única e inolvidable. Dale un toque DG a tus eventos
+          sociales, corporativos o bodas, con los servicios que necesites y en
+          el destino que elijas.
+          <br/><br/>
+          En DG Planner cuidamos cada detalle a la hora de crear y seleccionar cada experiencia. Valoramos la capacidad de nuestras celebraciones para ofrecer a los asistentes un espacio donde puedan experimentar y sentir de manera diferente, relacionarse con los demás, aprender, descubrir y compartir nuevas vivencias.
+
         </p>
       </div>
     </section>

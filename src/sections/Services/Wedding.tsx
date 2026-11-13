@@ -63,7 +63,7 @@ export default function Wedding() {
                 className={`${montserrat.className} text-[10px] mt-1 list-disc pl-4 space-y-0.5`}
               >
                 <li>Fotógrafo profesional</li>
-                <li>Videógraf</li>
+                <li>Videógrafo</li>
               </ul>
             </div>
           </article>
@@ -136,7 +136,7 @@ export default function Wedding() {
                 <li>Peluquería para la novia</li>
                 <li>Peluquería para damas de honor</li>
                 <li>Servicios de spa </li>
-                <li>relajación</li>
+                <li>Relajación</li>
               </ul>
             </div>
           </article>
@@ -202,7 +202,7 @@ export default function Wedding() {
                 className={`${montserrat.className} text-[10px] mt-1 list-disc pl-4 space-y-0.5`}
               >
                 <li>Coche clásico</li>
-                <li>limusina</li>
+                <li>Limusinas</li>
               </ul>
             </div>
           </article>

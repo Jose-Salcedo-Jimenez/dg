@@ -32,7 +32,7 @@ export default function Footer() {
               height={25}
             />
             <a href="tel:+573161333343" className="hover:underline">
-              (+57) 316 1333343
+              (+57) 300 1432070
             </a>
           </li>
 
@@ -47,7 +47,7 @@ export default function Footer() {
               href="mailto:contacto@dgonzalezeventos.com"
               className="hover:underline"
             >
-              daniloeventos@gmail.com
+              danilogonzalezeventos@gmail.com
             </a>
           </li>
 
@@ -74,7 +74,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:underline"
             >
-              @dgonzaleseventos
+              @dgonzalezeventos
             </Link>
           </li>
         </address>

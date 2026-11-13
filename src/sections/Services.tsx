@@ -6,40 +6,32 @@ const montserrat = Montserrat({ subsets: ["latin"], weight: ["300", "400"] });
 export default function Services() {
   return (
     <section className="w-full flex flex-col gap-4 lg:gap-10 items-center justify-center pl-4 pr-4 pb-14 pt-14  bg-[#D3D3D3] lg:pl-36 lg:pr-36 ">
-      <LogoDGg/>
+      <LogoDGg />
 
       <div className="w-full flex pb-4 lg:pb-0 gap-4 lg:gap-6 overflow-hidden overflow-x-auto lg:justify-center lg:items-center pt-6">
         <GallerCompoent
           src={"/Services/mesa.jpg"}
           alt="Primera imagen"
-          title="Wedding Planner"
+          title="CORPORATE EXPERIENCES"
           width={327}
           heigth={371}
-          description="Ofrecemos la planificación y organización de celebraciones de bodas
-            y aniversarios especiales. Servicios diseñados para todas las
-            parejas que deseen unir sus vidas o con- memorar sus años de unión
-            con un evento memorable."
+          description="Creamos experiencias corporativas únicas que elevan la identidad de cada empresa. Diseñamos y producimos eventos a la medida, cuidando cada detalle de la planificación, ambientación, logística y ejecución para crear experiencias que conecten con clientes, colaboradores y aliados estratégicos."
         />
         <GallerCompoent
           src={"/Services/bodas-chicas.jpg"}
           alt="Primera imagen"
-          title="Event Planner"
+          title="BESPOKE WEDDINGS"
           width={327}
           heigth={371}
-          description="Nuestro compromiso es ser su socio de
-confianza, brindando soluciones integrales
-para eventos con la máxima serenidad y
-excelencia."
+          description="Diseñamos bodas completamente personalizadas, donde cada detalle refleja la historia y esencia de la pareja. Desde la conceptualización y el diseño hasta la coordinación del gran día, transformamos cada celebración en una experiencia elegante, auténtica y memorable."
         />
         <GallerCompoent
           src={"/Services/Pareja.jpg"}
           alt="Primera imagen"
-          title="Destination Weddings"
+          title="DESTINATION WEDDINGS"
           width={327}
           heigth={371}
-          description="Transformamos tu visión de una boda
-soñada en una realidad global. Nuestros servicios de Destination Weddings ofrecen una
-planificación exquisita e impecable, encargándonos de toda la logística internacional."
+          description="Llevamos tu historia de amor a destinos extraordinarios. Planificamos y producimos celebraciones exclusivas en escenarios únicos, coordinando cada detalle para que tú y tus invitados vivan una experiencia inolvidable, donde el destino, la celebración y cada momento se convierten en parte de una historia para recordar."
         />
       </div>
       <div className="mt-10">
