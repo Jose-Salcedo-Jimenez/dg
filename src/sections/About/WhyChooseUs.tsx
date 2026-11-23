@@ -22,7 +22,7 @@ export default function WhyChooseUs() {
       </div>
       <div className="relative w-full h-100 lg:h-150 ">
         <Image
-          src={"/About/DG2.jpg"}
+          src={"/About/foto1.png"}
           alt="Dg eventos"
           fill
           className="object-cover"
